@@ -75,7 +75,7 @@ export default function Home() {
       console.error(err);
     }
   };
-
+  console.log(numberOfWhitelisted)
   const checkIfAddressInWhitelist = async () => {
     try {
       const signer = await getProviderOrSigner(true);
@@ -155,7 +155,7 @@ export default function Home() {
             It&#39;s an NFT collection for developers in Crypto.
           </div>
           <div className={styles.description}>
-            {0} have already joined the Whitelist
+            {numberOfWhitelisted} have already joined the Whitelist
           </div>
           {renderButton()}
         </div>
