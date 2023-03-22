@@ -155,7 +155,7 @@ export default function Home() {
             It&#39;s an NFT collection for developers in Crypto.
           </div>
           <div className={styles.description}>
-            {numberOfWhitelisted} have already joined the Whitelist
+            {0} have already joined the Whitelist
           </div>
           {renderButton()}
         </div>
